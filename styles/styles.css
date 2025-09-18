@@ -35,6 +35,9 @@ main img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
+    margin-left: 10px;
+    position: relative;
+    margin-top: -20px;
     box-shadow: 0 0 30px gray;
 }
 p {
@@ -50,6 +53,7 @@ aside img {
     height: auto;
     border: 1px solid black;
     padding: 2px;
+
     box-shadow: 0 0 30px rgb(151, 167, 203);
 }
 
