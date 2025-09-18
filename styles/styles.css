@@ -1,3 +1,11 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
 :root {
     --font-family: Arial, Helvetica, sans-serif;
     --footer-background-color:darkblue;
@@ -22,6 +30,7 @@ h1 {
 }
 
 main img {
+    float:right;
     width: 150px;
     height: auto;
     border: 1px solid black;
@@ -47,9 +56,13 @@ aside img {
 aside {
     max-width: fit-content;
     margin-top: 20px;
-    border: 1px solid rgb(72, 72, 151);
-    padding: 10px;
-    background-color: lightgray;       
+    border: 1px solid rgb(72, 72, 151);   
+}
+
+aside h2 {
+    position: relative;
+    top: 27px;
+    left: 30px;
 }
 
 footer {
@@ -63,4 +76,13 @@ footer {
 
 p {
    padding: 0; 
+}
+
+/* Call Seclectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgb(0 0 0 / 10%);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #000;
 }
