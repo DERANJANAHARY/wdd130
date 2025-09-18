@@ -1,10 +1,18 @@
+:root {
+    --font-family: Arial, Helvetica, sans-serif;
+    --footer-background-color:darkblue;
+    --padding:10px;
+    --color:white;
+    
+}
+
 nav {
-   background-color: darkblue; 
-   padding: 10px;
+   background-color:var(--footer-background-color); 
+   padding: var(--padding);
 }
 
 nav a {
-    color: white;
+    color: var(--color);
     display: block;
     padding: 20px;
 }
@@ -48,9 +56,9 @@ footer {
     margin-top: 15px;
     border-top: 1px solid black;
     text-align: center;
-    background-color: darkblue;
-    padding: 10px;
-    color: white;
+    background-color: var(--footer-background-color);
+    padding: var(--padding);
+    color: var(--color);  
 }
 
 p {
