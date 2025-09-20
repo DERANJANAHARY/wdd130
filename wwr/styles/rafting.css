@@ -74,14 +74,9 @@ h2 {
 
 }
 
-section {
-    position: relative;
-    top: -80px;
-    margin: auto;
-
-}
-
 article {
+    top:380px;
+    position: absolute;
     background-color: var(--rafting-color-dark);
     color: var(--rafting-color-text);
     opacity: 0.8;
@@ -93,13 +88,7 @@ article {
     height: auto;
 }
 
-.hero article {
-    position:relative;
-    top: -120px;
-    margin: auto;
-    background-color: var(--rafting-color-dark);
-    width: 100%;
-}
+
 
 footer {
     border-top: var(--rafting-color-dark) 4px solid;
