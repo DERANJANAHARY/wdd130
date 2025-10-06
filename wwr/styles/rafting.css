@@ -63,7 +63,23 @@ nav, p, section, article {
     padding: 8px;
 }
 
-h1, p{
+.contact h1, p {
+    position: relative;
+    background-color: white;
+    margin-top: 15px;
+    padding: 10px;
+    font-size: 1.2em;
+    color: var(--rafting-color-dark);
+    text-align: center;
+    opacity: 0.9;
+}
+
+.contact h1 {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+p{
     top: 15px;
     text-align: center;
     color: var(--rafting-color-dark);
