@@ -216,6 +216,13 @@ footer {
     font-size: 1.0em;
 }
 
+.map iframe {
+    border: 2px solid var(--rafting-color-dark);
+    border-radius: 8px;
+    width: 400px;
+    height: 390px;
+}
+
 .map-form {
     display: flex;
     flex-direction: row;
