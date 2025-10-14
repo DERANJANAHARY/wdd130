@@ -481,7 +481,7 @@ button:hover {
 
 .trip h3 {
     margin-top: 1rem;
-    color: var(--rafting-color-medium);
+    color: var(--rafting-color-dark);
 }
 
 .trip p {
@@ -516,7 +516,7 @@ th, td {
 }
 
 th {
-    background-color: #1b6ca8;
+    background-color: var(--rafting-color-dark);
     color: white;
 }
 
