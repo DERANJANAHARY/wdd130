@@ -126,7 +126,7 @@ h2 {
 .hero article {
     top:400px;
     position: absolute;
-    background-color: rgba(27, 108, 168, 0.7);
+    background-color: rgba(27, 108, 168, 0.95);
     
 }
 
@@ -327,7 +327,7 @@ button:hover {
     top:200px;
     position: absolute;
     background-color: var(--rafting-color-dark);
-    opacity: 0.8;
+    
 }
 
 .hero-home article p {
